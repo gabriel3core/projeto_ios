@@ -1,1 +1,92 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor1: #D3E6E4;
+    --cor2: #276661;
+    --cor3: #0D3C38;
+    --cor4: #4F918B;
+    --cor5: #85BBB7;
+    --cor6: #02332F;
+}
+
+body {
+    background-color: #D3E6E4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    min-height: 150px;
+    padding-top: 40px;
+    background-color: var(--cor4);
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
+}
+
+header h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    font-family: "Roboto Condensed", sans-serif;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2.4em;
+}
+
+header p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.815);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.78);
+    margin: auto;
+    max-width: 500px;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav a{
+    padding: 8px;
+    background-color: var(--cor2);
+    border-radius: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    background-color: var(--cor4);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-indent: 7px;
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    border-radius: 10px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-indent: 20px;
+}
+
