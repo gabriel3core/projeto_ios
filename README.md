@@ -1,5 +1,5 @@
 # projeto_ios
  
-html do projeto ios completo parcialmente
+sitezinho teste de conhecimento
 
  <a href="https://gabriel3core.github.io/projeto_ios/">page</a>
