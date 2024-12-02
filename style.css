@@ -37,7 +37,7 @@ header h1 {
     font-size: 2.4em;
 }
 
-header p{
+header p {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: bold;
     font-size: 1em;
@@ -47,11 +47,11 @@ header p{
     max-width: 500px;
 }
 
-nav{
+nav {
     padding: 20px;
 }
 
-nav a{
+nav a {
     padding: 8px;
     background-color: var(--cor2);
     border-radius: 5px;
@@ -59,7 +59,7 @@ nav a{
     color: whitesmoke;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: var(--cor4);
 }
 
@@ -85,8 +85,46 @@ main h2 {
     border-radius: 10px;
 }
 
-main p{
+main p {
     margin: 15px 0px;
     text-indent: 20px;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.video-container {
+    position: relative; /* Necessário para controlar o layout interno */
+    width: 100%; /* Faz o contêiner ocupar toda a largura disponível */
+    max-width: 100%; /* Garante que ele nunca ultrapasse o tamanho do contêiner pai */
+    padding-top: 56.25%; /* Cria um espaço proporcional (16:9) para o vídeo */
+}
+
+.video-container > iframe {
+    position: absolute; /* Faz o vídeo se ajustar dentro do contêiner */
+    top: 0;
+    left: 0;
+    width: 100%; /* Faz o vídeo preencher toda a largura do contêiner */
+    height: 100%; /* Ajusta a altura proporcionalmente */
+    border: 2px solid var(--cor4); /* colocar uma borda ao redor do video*/
+}
+
+aside {
+    padding-top: 20px;
+}
+
+.columns {
+    background-color: var(--cor1);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer{
+    background-color: var(--cor4);
+    text-align: center;
+    color: white;
+}

@@ -30,25 +30,31 @@
                 A arquitetura do iOS e semelhante a arquitetura basica encontrada no Mac OS 
                 X [Anvaari and Jansen 2010] e [Grissom 2008]. No nivel mais alto, o iOS atua como intermediario entre o hardware subjacente e os aplicativos que aparecem na tela, como mostrado na Figura 1.
             </p>
-            <abbr title="Aplicacoes em camadas em cima do ios">
-                <img src="img/ios 1.png" alt="Aplicacoes em camadas em cima do ios">
-            </abbr>
+            <div class="center">
+                <abbr title="Aplicacoes em camadas em cima do ios">
+                    <img src="img/ios 1.png" alt="Aplicacoes em camadas em cima do ios">
+                </abbr>
+            </div>
             <p>
                 A arquitetura do iOS e formada pelas camadas: Core OS, Core Services, Media e Cocoa Touch [Yates 2010], como mostrado na Figura 2.
             </p>
-            <abbr title="Aplicacoes em camadas em cima do ios">
-                <img src="img/ios 2.png" alt="Camadas do ios">
-            </abbr>
+            <div class="center">
+                <abbr title="Aplicacoes em camadas em cima do ios">
+                    <img src="img/ios 2.png" alt="Camadas do ios">
+                </abbr>
+            </div>
             <h2>
                 Criador do iOS
             </h2>
             <p>
                 Scott Forstall é o engenheiro de software estadunidense responsável pela criação e desenvolvimento do sistema operacional iOS. Forstall foi vice-presidente de software na Apple e começou sua carreira na NeXT.
             </p>
-            <picture>
-                <source media="(max-width: 650px)" srcset="img/scott.jpg">
-                <img src="img/scott grande.jpg" alt="Scott Forstall, desenvolvedor do ios e vice-presidente de software na Apple">
-            </picture>
+            <div class="center">
+                <picture>
+                    <source media="(max-width: 650px)" srcset="img/scott.jpg">
+                    <img src="img/scott grande.jpg" alt="Scott Forstall, desenvolvedor do ios e vice-presidente de software na Apple">
+                </picture>
+            </div>
             <h2>
                 Camadas do iOS
             </h2>
@@ -58,30 +64,36 @@
             <p>
                 Nas camadas inferiores do sistema estao os servicos fundamentais e as tecnologias dos quais todos os aplicativos dependem. Embora as tecnologias de niveis superiores resumam as tecnologias de niveis inferiores, os desenvolvedores ainda podem usar essas utimas que nao estao presentes nas camadas superiores [Apple 2010]. 
             </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/R1GWWONkJvU?si=Up7Atfm9ejcsnNYJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <h2>Divisoes das camadas do iOS</h2>
-            <ul>
-                <li>
-                    1. Camada Cocoa Touch
-                    <p>Esta camada define a infra-estrutura para as tecnologias fundamentais, tais como multitarefa, servicos de notificacao Apple push e diversos servicos de alto nivel do sistema</p>
-                </li>
-                <li>
-                    1.1 Camada Media
-                    <p>
-                        A camada Media contem as tecnologias de grafico, audio e video. As tecnologias nessa camada foram projetadas para tornar mais facil a implementacao de aplicativos multimidia.
-                    </p>
-                </li>
-                <li>
-                    1.2 Camada Core OS
-                    <p>
-                        A camada Core OS contem caracteristicas de baixo nivel que foram utilizadas na implementacao de outras tecnologias. Em situacoes onde o desenvolvedor precisa lidar explicitamente com seguranca ou comunicacao com acessorio de hardware externo, ele pode fazer isso utilizando os frameworks nessa camada.
-                    </p>
-                </li>
-            </ul>
+            <div class="video-container">
+                <iframe id="media" width="560" height="315" src="https://www.youtube.com/embed/R1GWWONkJvU?si=Up7Atfm9ejcsnNYJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <aside>
+                <h2>Divisoes das camadas do iOS</h2>
+                <div class="columns">
+                    <ul>
+                        <li>
+                            1. Camada Cocoa Touch
+                            <p>Esta camada define a infra-estrutura para as tecnologias fundamentais, tais como multitarefa, servicos de notificacao Apple push e diversos servicos de alto nivel do sistema</p>
+                        </li>
+                        <li>
+                            1.1 Camada Media
+                            <p>
+                                A camada Media contem as tecnologias de grafico, audio e video. As tecnologias nessa camada foram projetadas para tornar mais facil a implementacao de aplicativos multimidia.
+                            </p>
+                        </li>
+                        <li>
+                            1.2 Camada Core OS
+                            <p>
+                                A camada Core OS contem caracteristicas de baixo nivel que foram utilizadas na implementacao de outras tecnologias. Em situacoes onde o desenvolvedor precisa lidar explicitamente com seguranca ou comunicacao com acessorio de hardware externo, ele pode fazer isso utilizando os frameworks nessa camada.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
         </article>
     </main>
     <footer>
-        <p>Criado por GAB3CORE para teste de conhecimento</p>
+        <p>&copy Criado por GAB3CORE para teste de conhecimento</p>
     </footer>
 </body>
 </html>
